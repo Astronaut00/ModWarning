@@ -8,7 +8,7 @@ class UserChannel:
     id = 0
 
 # Define things im gonna use #
-clientToken = 'Nzc1NDc2MzIzNDM0MTAyODA3.X6wfmQ.-Pn_JtKbGP4ImycqtEdlvvJnATw'#the login token
+clientToken = 'PUT_TOKEN_HERE'#the login token
 client =  discord.Client() #the discord client object
 userChannel = UserChannel() #the class that contains the variable for the channel the user is in
 voiceEngine = pyttsx3.init() #used for text to speech
